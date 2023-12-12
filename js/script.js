@@ -24,8 +24,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
-
-
 document.addEventListener('DOMContentLoaded', function () {
     var nav = document.querySelector('nav');
     var navOffset = nav.offsetTop;
@@ -41,3 +39,4 @@ document.addEventListener('DOMContentLoaded', function () {
     // Adiciona um ouvinte de rolagem
     window.addEventListener('scroll', handleScroll);
 });
+
