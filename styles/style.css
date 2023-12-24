@@ -47,6 +47,7 @@ header {
     background-color: transparent;
     color: white;
     font-size: 12px;
+    cursor: pointer;
 }
 
 #moreInfo:hover {
@@ -258,14 +259,19 @@ main {
 }
 
 .text-container p {
-    font-size: 12px;
+    font-size: 13px;
     color: rgb(78, 78, 78);
     margin-bottom: 10px;
 }
 
 .text-container h2 {
-    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
     color: var(--amarelo);
+    background-color: var(--azul);
+    padding: 5px;
+    border-radius: 50px;
 }
 
 .sessao {
